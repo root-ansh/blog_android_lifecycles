@@ -1,5 +1,7 @@
 # Context
 
+(PS: just found [another good article on this topic](https://web.archive.org/web/20150329210012/https://possiblemobile.com/2013/06/context/),  you might wanna read that if you don't udnerstand the stuff below)
+
 <details>
 <summary>Android provides a lot of places for accessing context : </summary>
 
