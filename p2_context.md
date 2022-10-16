@@ -149,7 +149,7 @@ Note that i am not 100% sure about them:
 
 3. all other components that are calling `xyz.applicationContext` will have the same instance and it will be that of application or null (determined by AMS)
 4. `activity`/`view.context`/`fragment.context` context will have the value of activity instance  or null (determined by AMS). this context will contain theme values and therefore should be able to inflate views/fragments and access resources
-5. abc.baseContext is something i am still not fully sure about, just read the most stuff about it here: https://stackoverflow.com/questions/51759985/what-is-the-role-of-attachbasecontext/51760058
+5. abc.baseContext is something i am still not fully sure about, just read the most stuff about it here: https://stackoverflow.com/questions/51759985/what-is-the-role-of-attachbasecontext/51760058 . i also read somewhere that it is the base implementation of Context i.e an instance of `ContextImpl` .Didn't find any such class in aosp, but it might be a os class. So whatever it is, i think it has even lesser features setup than an instance of  `ContextWrapper`
 
 
 Next we will look into launch modes and activity lifecycles
