@@ -1,6 +1,6 @@
 # Context
 
-<display>
+<details>
 <summary>Android provides a lot of places for accessing context : </summary>
 
 ```kotlin
@@ -51,7 +51,7 @@ fun file(context: Context, activity: AppCompatActivity, application: Application
 
 ```
 
-</display>
+</details>
 
 but what exactly is a context?
 
@@ -90,7 +90,7 @@ as you see:
 
 So here are a dew of my claims with regards to the previous example:
 
-<display>
+<details>
 <summary>The example : </summary>
 
 ```kotlin
@@ -141,7 +141,7 @@ fun file(context: Context, activity: AppCompatActivity, application: Application
 
 ```
 
-</display>
+</details>
 
 Note that i am not 100% sure about them:
 1. application context is different than activity context 
